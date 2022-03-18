@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap&family=Patrick+Hand&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+   position: fixed;
+   top: 0;
+   font-family: 'Roboto', sans-serif;
+   padding: 10px;
+   font-size: 60px;
+   text-align: center;
+   color: rgb(59, 59, 59);
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#quotetext{
+    font-size: 25px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(59, 59, 59);
+}
+
+.buttoncontainer{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5em;
+}
+
+.quotediv{
+    max-width: 40vw;
+}
+
+.kanyediv img{
+    max-width: 15em;
+}
+
+.button {
+    background-color: rgb(59, 59, 59); /* Green */
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+
+  .button:hover{
+      background-color:rgb(31, 30, 30);
+  }
+
+  @media only screen and (max-width: 700px) {
+    .quotediv{
+        max-width: 90vw;
+    }
+
+    .title{
+        font-size: 35px;
+    }
+  }
