@@ -4,7 +4,7 @@ Sida för att generera citat av Kanye West.
 
 Följande API används för att generera citaten: https://kanye.rest
 
-Demo: 
+Demo: https://rkmv8.github.io/KanyeQuotes/
 
 **GIF**
 
